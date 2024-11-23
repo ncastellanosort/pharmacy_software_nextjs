@@ -17,11 +17,7 @@ Welcome to the Pharmacy Project! This is a modern web application developed usin
 
 ---
 
-## Getting Started 🏎️
-
-To get started with the Pharmacy Project, follow these steps:
-
-### Prerequisites
+### Prerequisites 🏎️
 Make sure you have the following installed on your machine:
 - **Node.js** (v16 or higher)
 - **npm** or **yarn** (Package managers)
