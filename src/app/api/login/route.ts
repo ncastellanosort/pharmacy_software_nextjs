@@ -5,10 +5,9 @@ export async function GET(request: Request) {
   const email = searchParams.get("email");
   const password = searchParams.get("password");
 
-  return NextResponse.json({
-    message: "GET recibido correctamente",
-    data: { email, password },
-  });
+  console.log(email + " " + password);
+
+  return NextResponse.redirect(new URL("/home", request.url));
 }
 
 export async function POST(request: Request) {
