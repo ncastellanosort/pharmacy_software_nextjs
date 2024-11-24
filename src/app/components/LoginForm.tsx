@@ -2,7 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function LoginForm() {
+interface Props {
+  name: string;
+}
+
+export default function LoginForm(props: Props) {
   return (
     <>
       <section className="bg-gray-50 flex-grow">
@@ -74,7 +78,7 @@ export default function LoginForm() {
                     target="_blank"
                   >
                     {" "}
-                    Regístrate ahora
+                    Regístrate ahora {props.name}
                   </Link>
                 </p>
               </form>
